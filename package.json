@@ -1,0 +1,23 @@
+{
+  "name": "ts-template",
+  "version": "1.0.0",
+  "description": "typescript is <3",
+  "main": "index.js",
+  "scripts": {
+    "watch": "tsc -w",
+    "dev": "nodemon dist/index.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "jovo-team",
+  "dependencies": {
+    "@types/eslint": "^7.28.0",
+    "@types/node": "^16.4.14",
+    "nodemon": "^2.0.12",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
